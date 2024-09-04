@@ -1,1 +1,41 @@
-# test
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode/launch.json
+.eslintcache
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+.tool-versions
+
+allure-results/
+reports/
+tmp/
+
+# yarn berry
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
